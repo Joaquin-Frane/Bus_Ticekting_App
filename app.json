@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Ceres.Co",
+    "slug": "Ceres",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon2.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/loading.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#191970"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hyperion72.Ceres"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e44d42c4-a99c-4028-861d-07347e467233"
+      }
+    }
+  }
+}
